@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+h1, h2{
+    color: #4D4D4D;
+}
+p{
+    font-size: 14px;
+    padding: 5px 0px;
+    color: #717171;
+}
+span{
+    color: #43A046;
+}
+.navbar{
+    padding: 12px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.nav-right{
+    width: 60%;
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+.navbar-list li{
+    font-size: 14px;
+}
+.navbar button{
+    background: #43A046;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.navbar button i{
+    padding-left: 3px;
+    font-size: 10px;
+}
+.section2{
+    padding: 10px 90px;
+    background: #F5F5F5;
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.section2-left{
+    width: 60%;
+}
+.section2-right{
+    width: 30%;
+}
+.section2-left h2{
+    font-size: 54px;
+    color: #4D4D4D;
+}
+.section2-left p{
+    margin: 10px 0px;
+
+}
+.section2-left button{
+    background: #43A046;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.section2-icon{
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+}
+.section3{
+    text-align: center;
+    padding: 20px 90px;
+    margin: 30px 0px;
+}
+.section3-icons{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.section4-top{
+    margin-top: 0px;
+    text-align: center;
+}
+.section4-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+.sec4-top1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 20%;
+}
+.sec4-top1 h1{
+    font-size: 24px;
+}
+.section5{
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec5-right{
+    width: 45%;
+}
+.sec5-left{
+    width: 50%;
+}
+.sec5-right button,.sec7-right button{
+    background: #43A046;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.sect6{
+    margin: 30px 0px;
+    background: #F5F5F5;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sec6-right{
+    width: 40%;
+}
+.sec6-right-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.sec6-right-top1{
+    display: flex;
+    align-items: center;
+}
+.sec6-details{
+    padding-left: 5px;
+}
+.extra{
+    margin-right: 40px;
+}
+.sec7{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec7-right{
+    width: 50%;
+}
+.sec8{
+    margin: 30px 0px;
+    display: flex;
+    background: #F5F5F5;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+.sec8-right{
+    width: 60%;
+}
+.sec8-icons{
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec8-icons i{
+    padding-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sec9{
+    text-align: center;
+    padding: 0px 100px;
+}
+.sec9-icons{
+    margin-top: 15px;
+}
+.sec9-icons img{
+    padding-left: 20px;
+}
+.sec10{
+    text-align: center;
+    padding: 30px 120px;
+    background: #F5F5F5;
+    margin-top: 30px;
+}
+.sec10 button{
+    background: #43A046;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.sec10 button i{
+    margin-left: 5px;
+}
+.sec11{
+    background: #000;
+    color: white;
+    padding: 50px 150px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec11-1{
+    width: 35%;
+}
+
+.sec11-2 li{
+    list-style: none;
+    padding: 5px 0px;
+    
+}
+.sec11 h3{
+    margin-bottom: 20px;
+}
+.sec11-3-inpt input{
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+.sec11-3-inpt{
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    background: grey;
+    margin: 20px 0px;
+}
+::placeholder {
+    color: white;
+}
+.sec11-1 p{
+    color: white;
+}
+.img11-1{
+    padding: 10px 0px;
+}
+.img11-2{
+    padding: 20px 0px;
+}
+@media only screen and (max-width:500px) {   
+    h1{
+        font-size: 18px;
+    } 
+    p{
+      font-size: 8px;
+    }
+.navbar{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.nav-right{
+    width: 80%;
+}
+.navbar-list li{
+    font-size: 8px;
+}
+.navbar button{
+    font-size: 8px;
+    padding: 7px 14px;
+    border-radius: 2px;
+}
+.navbar button i{
+    padding-left: 1px;
+    font-size: 5px;
+}
+.nav-left img{
+    width: 80px;
+} 
+.section2{
+    padding: 4px 50px;
+    height: 200px;
+}
+.section2-left h2{
+    font-size: 20px;
+}
+.section2-left p{
+    font-size: 7px;
+}
+.section2-left button{
+    padding: 7px 10px;
+    font-size: 7px;
+    border-radius: 2px;
+}
+.section2-icon{
+    position: absolute;
+    bottom: 2px;
+    right: 50%;
+} 
+.section2-icon img{
+    width: 25px;
+}  
+.section2-right img{
+    width: 150px;
+}
+.section3{
+    padding: 15px 50px;
+    margin: 0px 0px;
+}
+.section3-icons img{
+    width: 20px;
+}
+.sec4-top1 img{
+    width: 30px;
+}
+.sec4-top1{
+    width: 25%;
+    border-bottom: 1px solid rgb(241, 238, 238);
+}
+.section4-bottom{
+    padding: 20px 60px;
+}
+.section5{
+    padding: 0px 20px;
+}
+.sec5-right{
+    width: 60%;
+}
+.sec5-left{
+    width: 40%;
+}
+.sec5-left img{
+    width: 200px;
+}
+.sec5-right button,.sec7-right button{
+    padding: 8px 12px;
+    margin-top: 10px;
+    font-size: 8px;
+    border-radius: 2px;
+}
+.sect6{
+    margin: 10px 0px;
+    padding: 10px 30px;
+}
+.sec6-img img{
+    width: 20px;
+}
+.sec6-details h2{
+    font-size: 14px;
+}
+.sec6-right{
+    width: 50%;
+}
+.sec6-right-top{
+    padding: 8px 0px;
+}
+.sec6-details{
+    padding-left: 5px;
+}
+.extra{
+    margin-right: 20px;
+}
+.sec4-top1 h1{
+    font-size: 18px;
+}
+.sec7{
+    padding: 10px 30px;
+}
+.sec7-left img{
+    width: 180px;  
+}
+.sec8-left img{
+    width: 150px;
+}
+.sec8{
+    margin: 10px 0px;
+    padding: 5px 20px;
+}
+.sec8-right{
+    width: 60%;
+}
+span{
+    font-size: 10px;
+    font-weight: 600;
+}
+.sec8-icons img{
+   width: 20px;
+   padding-right: 4px;
+   padding-top: 0px;
+}
+.sec8-icons{
+    margin: 10px 0px;
+}
+.sec8-icons i{
+    padding-left: 5px;
+    font-size: 10px;
+}
+.sec9{
+    padding: 0px 10px;
+}
+.sec9-icons{
+    margin-top: 10px;
+}
+.sec9-icons img{
+    padding-left: 4px;
+    width: 140px;
+}
+.sec10{
+    padding: 20px 50px;
+    margin-top: 10px;
+}
+.sec10 h1{
+    font-size: 22px;
+}
+.sec10 button{
+    padding: 8px 14px;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-size: 8px;
+}
+.sec10 button i{
+    margin-left: 2px;
+}
+.sec11{
+    padding: 20px 30px;
+}
+.sec11-1{
+    width: 30%;
+}
+.sec11-2 li{
+    font-size: 8px;
+    padding: 2px 0px;   
+}
+h3{
+    font-size: 14px;
+}
+.sec11 h3{
+    margin-bottom: 5px;
+}
+.sec11-3-inpt{
+    padding: 4px;
+    border-radius: 2px;
+    margin: 10px 0px;
+}
+.sec11-3-inpt input{
+    font-size: 8px;
+}
+.img11-1{
+    padding: 5px 0px;
+    width: 90px;
+}
+.img11-2{
+    padding: 5px 0px;
+}
+}
